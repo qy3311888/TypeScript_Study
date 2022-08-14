@@ -127,7 +127,3 @@ const myCanvas = <HTMLCanvasElement>document.getElementById("main_canvas")
 
 #### 文字类型
 
-​                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
-
-
-
