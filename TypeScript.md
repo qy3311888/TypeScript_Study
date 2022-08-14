@@ -72,3 +72,62 @@ function greet(name: string): void {
 }
 ```
 
+#### 对象类型
+
+```typescript
+function printCoord(pt: {x: number, y: number}) {
+    console.log('坐标x的值为：' + pt.x)
+    console.log('坐标y的值为：' + pt.y)
+}
+printCoord({x: 3, y: 7})
+```
+
+联合类型
+
+```typescript
+let id: number | string
+```
+
+#### 类型别名
+
+```typescript
+type Point = {
+    x: number
+    y: number
+}
+
+type ID = number | string
+
+type UserInputSanitizedString = string
+```
+
+#### 接口
+
+```typescript
+interface Point {
+    x: number
+    y: number
+}
+
+function printCoord(pt: Point) {
+    console.log("x =" + pt.x);
+    console.log("y =" + pt.y);
+}
+
+printCoord({x: 100, y: 100})
+```
+
+#### 类型断言
+
+```typescript
+const myCanvas = document.getElementById("main_canvas") as HTMLCanvasElement
+
+const myCanvas = <HTMLCanvasElement>document.getElementById("main_canvas")
+```
+
+#### 文字类型
+
+​                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                
+
+
+
