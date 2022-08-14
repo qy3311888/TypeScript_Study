@@ -1,3 +1,4 @@
 "use strict";
 let testString = 'hello world';
-testString = '邱懿';
+testString = 'qy';
+console.log(testString);
